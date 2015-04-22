@@ -1,0 +1,42 @@
+.flex-direction-nav a{
+    z-index:100;
+}
+
+@media (min-width: 1200px) {
+
+    .hidden-picture{
+        display: hidden;
+    }
+
+    .header-pic.container{
+        width:100%;
+        overflow: hidden;
+    }
+
+    .header-pic .row .col-lg-12{
+        padding-left:0 !important;
+        padding-right:0 !important;
+    }
+
+    #featured .flexslider {
+        margin: 0;
+    }
+
+    .container {
+        padding:0;
+        position:relative;
+    }
+}
+
+@media (max-width: 480px) {
+    .fancybox-nav span, .fancybox-nav:hover span, .fancybox-close, .fancybox-close:hover{
+        background: #26292E;
+    }
+
+    .fancybox-close i{
+        left:50%;
+        top:50%;
+    }
+}
+
+
